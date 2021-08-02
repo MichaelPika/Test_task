@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test_task</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  </head>
+  <body>
+    <header id="home">
+      <div class="header-info">
+        <div class="header-logo">    <!--  tut -->
+          <img src="img/logo.png"></img>
+          <div class="text-logo">
+            <a href="#" class="logo">Логотип</a> 
+            <p class="text-logo">Инжиниринговая компания</p>
+          </div>
+        </div>
+        <form>
+          <input type="text" placeholder="Поиск по сайту">
+          <button class="button-search" type="submit" ></button>
+        </form>
+      </div>
+      <nav>
+          <div class="main-nav" id="main-nav">
+            <a class= "menu menu-bordered" href="#home">О компании</a>            
+            <a class="menu menu-bordered" href="#">Услуги</a>           
+           <a class="menu menu-bordered" href="#">Объекты</a>           
+            <a class="menu menu-bordered" href="#">Закупки</a>           
+            <a class="menu menu-bordered" href="#">Партнеры </a>
+            <a class="menu menu-selected" href="#">Новости</a>           
+            <a class="menu menu-bordered" href="#">Контакты </a>            
+            <a class="menu menu-icon" href="#" id="menu">&#9776</a>
+          </div>
+        </nav>
+    </header>
+      <main class="slider">
+        <div class="slides fade">
+          <img src="/img/pexels-marcin-jozwiak-3634730 1.png" alt="news1">
+          <div class="slider-content">
+            <p>
+             наши компетенции
+            </p>
+            <h1>Объекты<br> химической <br> промышленности</h1>
+            <h2>Важнейшим преимуществом компании является способность проектировать и строить «под ключ». При этом данные процессы ведутся одновременно, что позволяет заказчику значительно сократить общий строительный цикл объекта</h2>
+          </div>
+        </div>
+        <div class="slides fade">
+          <img src="/img/pexels-marcin-jozwiak-3634730 1.png" alt="news1">
+        </div>
+        <div class="slides fade">
+          <img src="/img/pexels-marcin-jozwiak-3634730 1.png" alt="news1">
+        </div>
+        <div class="slides fade">
+          <img src="/img/pexels-marcin-jozwiak-3634730 1.png" alt="news1">
+        </div>
+        <div class="slides fade">
+          <img src="/img/pexels-marcin-jozwiak-3634730 1.png" alt="news1">
+        </div>
+        <div >
+          <ul class="carousel-indicators">
+            <li onclick="currentSlide(1)" class="dot active"></li>
+            <li onclick="currentSlide(2)" class="dot"></li>
+            <li onclick="currentSlide(3)" class="dot"></li>
+            <li onclick="currentSlide(4)" class="dot"></li>
+            <li onclick="currentSlide(5)" class="dot"></li>
+          </ul>
+        </div>
+      <section class="services">
+        <div class="layout-services-column">
+          <div class="tool">
+            <img src="/img/ic_1.svg"></img>
+            <p class="tool-title">
+            <a href="#">Услуги проектирования</a></p>
+          </div>
+          <div class="tool">
+            <img src="/img/ic_2.svg"></img>
+            <p class="tool-title">
+            <a href="#">Строительно-монтажные работы</a></p>
+        </div>
+        <div class="tool">         
+          <img class="ico-worker" src="/img/ic_3.svg"></img>          
+          <p class="tool-title">
+          <a href="#">Экспертная деятельность</a></p>
+      </div>
+      <div class="tool">        
+        <img src="/img/ic_4.svg"></img>      
+        <p class="tool-title">
+        <a href="#">Техническое обслуживание</a></p>
+    </div>
+    <div class="tool">      
+      <img src="/img/ic_5.svg"></img>      
+      <p class="tool-title">
+      <a href="#">Испытательная лаборатория</a></p>
+    </div> 
+  </div>
+</section>
+</main>
+<script src="/script.js"></script>
+</body>
+      
